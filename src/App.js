@@ -10,7 +10,9 @@ import Toolbar from './components/Toolbar';
 function App() {
   return (
     <div className='App'>
-      <Toolbar/>
+      <Toolbar className="boarder-color"/>
+      
+      <h1 className='text-red'>ayush</h1>
     </div>
 
   );
